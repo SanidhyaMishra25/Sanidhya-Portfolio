@@ -51,7 +51,7 @@ p.para1 {
     border: 1px solid #ddd;
     padding: 1rem;
     border-radius: 0.5rem;
-    background-color: #4ec4b8;
+    background-color: grey;
     width: 100%;
 }
 
@@ -76,7 +76,7 @@ p.para1 {
 .projectDesc p {
     margin: 0;
     font-size: 1rem;
-    color: #666;
+    color: white;
 }
 
 .workBtn {
@@ -84,7 +84,7 @@ p.para1 {
     padding: 0.5rem 2.5rem;
     border: none;
     border-radius: 2rem;
-    background: #007bff;
+    background: grey;
     color: white;
     font-size: 1rem;
     cursor: pointer;

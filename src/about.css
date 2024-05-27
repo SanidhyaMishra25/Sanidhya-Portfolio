@@ -28,7 +28,7 @@
   justify-content: center;
   text-align:center;
   margin: 0 auto;
-  background-color: #d7fbf7;
+  background-color: white;
 }
 
 .skillTitle{
@@ -82,7 +82,7 @@
   font-weight: 700;
 }
 .btn {
-  background-color: #4ec4b8;
+  background-color: grey;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -95,11 +95,4 @@
   display: inline-block;
  /* bottom: -250px;
   position: absolute;  */
-}
-.btn:hover {
-  background-color: #4ec4b8;
-}
-.btncolor
-{
-  background-color: #4ec4b8;
 }

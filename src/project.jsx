@@ -21,31 +21,26 @@ export default function Project() {
                     <div className="project">
                         <img src={project2} alt="project1" className="worksImg" />
                         <div className="projectDesc">
-                            <h3>Manual Website Hosting</h3>
-                            <p className='para1'>In my project, I manually hosted a website using Vagrant for a multi-host setup. 
-                            I configured Apache2 as the web server and deployed RabbitMQ for messaging, Memcached for caching, and MySQL for the database. 
-                            This setup ensures efficient handling of web requests, message queuing, caching, and data storage, providing a robust and scalable hosting environment.</p>
+                            <h3>Personal Portfolio Website</h3>
+                            <p> A personal portfolio website that showcases your professional background, skills, and projects. 
+                                It includes sections like About Me, Projects, and Contact, providing an engaging and informative introduction to potential employers or clients. </p>
                         </div>
                     </div>
                     <div className="project">
                         <img src={project1} alt="project2" className="worksImg" />
                         <div className="projectDesc">
-                            <h3>Automatic Website Hosting on AWS</h3>
-                            <p className='para1'>In my project, I utilized the AWS platform to host a website using an EC2 instance with Apache Tomcat. 
-                                I leveraged an S3 bucket for common storage needs and integrated Route 53 for domain name management. 
-                                Additionally, I deployed multiple EC2 instances to host various services, including Memcached for caching, RabbitMQ for messaging, and MySQL for the database server. 
-                                This architecture ensures a scalable, reliable, and efficient web hosting environment.
+                            <h3>Simple To-Do List Application</h3>
+                            <p className='para1'>A to-do list application that allows users to add, edit, delete, and mark tasks as completed. 
+                            This project demonstrates the ability to handle basic CRUD operations and maintain persistent state using local storage.
                             </p>
                         </div>
                     </div>
                     <div className="project">
                         <img src={project3} alt="project3" className="worksImg" />
                         <div className="projectDesc">
-                            <h3>Hybrid Cloud Architecture</h3>
-                            <p className='para1'>In my project, I designed a hybrid-cloud architecture to transition network file shares from an on-premises setup to AWS. 
-                            This architecture integrates on-premises storage with AWS services to create a seamless and scalable solution. 
-                            Using AWS Storage Gateway, I bridged the on-premises storage with Amazon S3, allowing for secure and efficient file sharing. 
-                            Additionally, EC2 instances were used to manage compute resources, while Route 53 facilitated DNS management.</p>
+                            <h3>Weather App</h3>
+                            <p className='para1'>A weather application that fetches real-time weather data for any city using a weather API. 
+                            It displays current conditions and a 5-day forecast, showcasing the ability to integrate and display data from external APIs.</p>
                         </div>
                     </div>
                 </div>

@@ -35,7 +35,7 @@
 .ftext{
     margin: 1rem 0;
     font-size: x-large;
-    background-color: #4ec4b8;
+    background-color: gray;
 
 }
 .linkdeln{
@@ -87,11 +87,11 @@ input{
     position: absolute;  */
   }
   .btn:hover {
-    background-color: #4ec4b8;
+    background-color: white;
   }
   .btncolor
   {
-    background-color: #4ec4b8;
+    background-color: white;
   }
 p,a{
     font-size:x-large;
